@@ -10,7 +10,7 @@ import mods.thaumcraft.Infusion;
 
         //Crucible
             //mods.thaumcraft.Crucible.removeRecipe(<recipeName>);
-            //mods.thaumcraft.Crucible.removeRecipe(<thaumcraft:ingot:2>);
+            mods.thaumcraft.Crucible.removeRecipe(<thaumcraft:ingot:2>);
 
         //Infusion
             //mods.thaumcraft.Infusion.removeRecipe("recipeName");
@@ -26,7 +26,7 @@ import mods.thaumcraft.Infusion;
 
         //Crucible
             //mods.thaumcraft.Crucible.registerRecipe("crucibleTest", "", <minecraft:diamond>, <minecraft:stick>, [<aspect:aer>]);
-            mods.thaumcraft.Crucible.registerRecipe("crucibleTest", "", <embers:ingot_copper>, <minecraft:stick>, [<aspect:aer>, 6]);
+            mods.thaumcraft.Crucible.registerRecipe("crucibleTest", "", <thaumcraft:ingot:2>,<embers:ingot_copper>, [<aspect:metallum> * 5, <aspect:instrumentum> * 2]);
             
         //Infusion
             //mods.thaumcraft.Infusion.registerRecipe(String name, String research, IItemStack output, int instability, CTAspectStack[] aspects, IIngredient centralItem, IIngredient[] recipe);
